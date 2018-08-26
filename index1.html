@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>LeapDev</title>
+	
+	<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 3px;
+    text-align: left;    
+}
+</style>
+</head>
+<body>
+    <form action="/submit" method="post">
+         <br />
+        <div id="heading"><h3>Enter employee data</h3></div>
+		<br /><br />
+		
+		<table style="width:60%">
+  <tr>
+    <th id="lblName">Name</th>
+	<th >Hourly rate</th>
+	<th>Mon</th>
+	<th>Tue</th>
+	<th>Wed</th>
+	<th>Thu</th>
+	<th>Fri</th>
+	<th>Sat</th>
+	<th>Sun</th>
+    
+  </tr>
+  <tr>
+    <td><input id="name" name="name" type="text" required/></td>
+	
+    <td><input id="rate" name="rate" type="number" value="0" min="0" max="50" required step="0.01"/></td>
+    <td><input id="mon" name="mon" type="number" value="0" /></td>
+	<td><input id="tue" name="tue" type="number"  value="0"/></td>
+	<td><input id="wed" name="wed" type="number" value="0"/></td>
+	<td><input id="thu" name="thu" type="number" value="0"/></td>
+	<td><input id="fri" name="fri" type="number" value="0"/></td>
+	<td><input id="sat" name="sat" type="number" value="0"/></td>
+	<td><input id="sun" name="sun" type="number" value="0"/></td>
+  </tr>
+</table>
+
+		</br>
+        <input id="submit" type="submit" text="Submit" value='Submit' />
+		<INPUT id="reset" type='reset'  value='Reset'>
+    </form>
+</body>
+</html>
