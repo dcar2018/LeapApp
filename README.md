@@ -9,7 +9,11 @@ Application will run on http://localhost:5000
 
 Employee details can be entered in below page 
 
+![alt text](https://github.com/dcar2018/LeapApp/blob/master/SampleImages/HomePage.JPG)
+
 
 
 After submitting the details, user will get direct to the below given page where it will display the total hours and calculated weekly salary.
+ 
+ ![alt text](https://github.com/dcar2018/LeapApp/blob/master/SampleImages/SalaryPage.JPG)
  
