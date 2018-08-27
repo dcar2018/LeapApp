@@ -3,7 +3,8 @@ Application to calculate weekly salary
 
 This simple application allows user to enter their name, hourly rate and hours worked for the week, Monday to Sunday. 
 When submitting the application employee can see their weekly salary and total hours worked for the week. Where weekly salary will 
-calculate by total hours into hourly rate and with 1.5 and 2 penalty rates for Saturday and Sunday respectively.
+calculate by total hours into hourly rate, where hourly rate can not exceed 50, and with 1.5 and 2 penalty rates for Saturday and Sunday respectively.
+
 
 Application will run on http://localhost:5000
 
